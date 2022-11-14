@@ -36,9 +36,16 @@ git clone https://github.com/Joannechiao18/Improved-GANomaly.git
 We evaluated our results over three baseline models: `AnoGAN`, `EGBAD`, and `the original GANomaly` on the mvtec testing datasets. 
 1. The results after comparing our improved GANomaly with AnoGAN and EGBAD: 
 
-| Column 1 Header | Column 2 Header | Column 3 Header |
-| --------------- | --------------- | --------------- |
-| Row 1 Column 1 | Row 1 Column 2 | Row 1 Column 3 |
-| Row 2 Column 1 | Row 2 Column 2 | Row 2 Column 3 |
-| Row 3 Column 1 | Row 3 Column 2 | Row 3 Column 3 |
+|                 | AnoGAN          | EGBAD           | Ours           |
+| --------------- | --------------- | --------------- | ---------------|
+| Accuracy        | 70.8 %          | 74.7 %          | 83.8 %         |
+| F1-Score        | 67.6 %          | 85.5 %          | 89.0 %         |
+
+2. In the second experiments, we evaluated our method's performacne by comparing with original GANomaly on the ***Wood***, ***Screw***, and ***Pill*** testing images from the mvtec datasets. The results are as the follows: 
+
+|                 | Original GANomaly                 | Ours                              |
+| --------------- | --------------- | --------------- | --------------- | --------------- |
+|                 | Accuracy        | F1-Score        | Accuracy        | F1-Score        |
+| Accuracy        | 70.8 %          | 74.7 %          | 70.8 %          | 74.7 %          |
+| F1-Score        | 67.6 %          | 85.5 %          | 70.8 %          | 74.7 %          |
 
