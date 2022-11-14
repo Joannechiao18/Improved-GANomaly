@@ -7,7 +7,7 @@
 This is an improved version GANomaly with keras from YZU graduate-level course Machine Learning class. 
 
 ## Introduction 
-To overcome the challenge that the original GANomaly had already learned many tiny features of images, which is hard to make further improvements, I revisited the principle paper "GANomaly: Semi-Supervised Anomaly Detection via Adversarial Training" and then re-defined a new anomaly score, which calculates the differences between features from generated and testing images by the encoder trained on regular samples.
+Instead of calculating the differences between the features from generated images by the encoder trained on generated samples and the features from testing images by the encoder trained on regular samples, we re-defined a new anomaly score, which calculates the differences between features from generated and testing images by the encoder trained on regular samples.
 
 ### Dependencies
 * tensorflow 
@@ -59,3 +59,24 @@ We evaluated our results over three baseline models: `AnoGAN`, `EGBAD`, and `the
 | Wood            | 90.8 %          | 94.4 %          | 93.7 %          | 96.0 %          |
 | Screw           | 86.2 %          | 82.6 %          | 94.4 %          | 96.3 %          |
 | Pill            | 84.1 %          | 90.5 %          | 90.2 %          | 90.8 %          | 
+
+# Citation
+
+```
+@article{DBLP:journals/corr/abs-1805-06725,
+  author    = {Samet Akcay and
+               Amir Atapour Abarghouei and
+               Toby P. Breckon},
+  title     = {GANomaly: Semi-Supervised Anomaly Detection via Adversarial Training},
+  journal   = {CoRR},
+  volume    = {abs/1805.06725},
+  year      = {2018},
+  url       = {http://arxiv.org/abs/1805.06725},
+  eprinttype = {arXiv},
+  eprint    = {1805.06725},
+  timestamp = {Mon, 13 Aug 2018 16:46:23 +0200},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-1805-06725.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+```
