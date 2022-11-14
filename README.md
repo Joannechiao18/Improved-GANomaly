@@ -34,7 +34,7 @@ git clone https://github.com/Joannechiao18/Improved-GANomaly.git
 
 ## Results:
 We evaluated our results over three baseline models: `AnoGAN`, `EGBAD`, and `the original GANomaly` on the mvtec testing datasets. 
-1. The results are as the following: 
+The results are as the following: 
 | Column 1 Header | Column 2 Header | Column 3 Header |
 | --------------- | --------------- | --------------- |
 | Row 1 Column 1 | Row 1 Column 2 | Row 1 Column 3 |
