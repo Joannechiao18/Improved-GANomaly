@@ -7,7 +7,7 @@
 This is an improved version GANomaly with keras from YZU graduate-level course Machine Learning class. 
 
 ## Introduction 
-To overcome the challenge that the original GANomaly had already learned many tiny features of images, which is hard to make further improvements. I revisited the principle paper "GANomaly: Semi-Supervised Anomaly Detection via Adversarial Training" and learned that anomaly score definition in the inferencing stage is crucial. Therefore, I re-defined a new anomaly score, aiming to calculate differences between features from generated and testing images by the encoder trained on regular samples.
+To overcome the challenge that the original GANomaly had already learned many tiny features of images, which is hard to make further improvements, I revisited the principle paper "GANomaly: Semi-Supervised Anomaly Detection via Adversarial Training" and then re-defined a new anomaly score, which calculates the differences between features from generated and testing images by the encoder trained on regular samples.
 
 ### Dependencies
 * tensorflow 
@@ -44,7 +44,7 @@ We evaluated our results over three baseline models: `AnoGAN`, `EGBAD`, and `the
 
 2. In the second experiments, we evaluated our method's performacne by comparing with original GANomaly on the ***Wood***, ***Screw***, and ***Pill*** testing images from the mvtec datasets. The results are as the follows: 
 
-|                 | Original GANomaly|                 | Ours           |                   |
+|                 | <td colspan=2>Original GANomaly   | <td colspan=2>Ours                |
 | --------------- | --------------- | --------------- | --------------- | --------------- |
 |                 | Accuracy        | F1-Score        | Accuracy        | F1-Score        |
 | Accuracy        | 70.8 %          | 74.7 %          | 70.8 %          | 74.7 %          |
