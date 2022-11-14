@@ -33,6 +33,9 @@ git clone https://github.com/Joannechiao18/Improved-GANomaly.git
 2. Please `cd` to the `Improved-GANomaly-main`, and run the file `GANomaly_copy.ipynb` in Google Colab.
 
 ## Results:
-| Attempt | #1    | #2    |
-| :---:   | :---: | :---: |
-| Seconds | 301   | 283   |
+We evaluated our results over three baseline models: `AnoGAN`, `EGBAD`, and `the original GANomaly` on the mvtec testing datasets. 
+1. The results are as the following: 
+|         | AnoGAN| EGBAD | original GANomaly|
+| Accuracy| 70.8% | 74.7% | 83.8% |
+| F1-Score| 67.6% | 85.5%| 89.0%  |
+|Inference Time (s)| 827.3| 283   | 11.9%    |
