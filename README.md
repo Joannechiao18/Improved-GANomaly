@@ -42,11 +42,19 @@ We evaluated our results over three baseline models: `AnoGAN`, `EGBAD`, and `the
 | F1-Score        | 67.6 %          | 85.5 %          | 89.0 %         |
 | Inference Time  | 827.3 s         | 101.5 s         | 11.9 s         |
 
+2. In the second experiments, we evaluated our method's performacne by comparing with original GANomaly on the ***Wood***, ***Screw***, and ***Pill*** testing images from the mvtec datasets. The results are as the follows: 
 
-
-|                 | Original GANomaly|                 |Ours            |                   |
+|                 | Original GANomaly|                |Ours             |                  |
 | --------------- | --------------- | --------------- | --------------- | --------------- |
 |                 | Accuracy        | F1-Score        | Accuracy        | F1-Score        |
-| Accuracy        | 70.8 %          | 74.7 %          | 70.8 %          | 74.7 %          |
-| F1-Score        | 67.6 %          | 85.5 %          | 70.8 %          | 74.7 %          |
+| Wood            | 75.6 %          | 85.5 %          | 93.7 %          | 96.0 %          |
+| Screw           | 73.5 %          | 83.2 %          | 94.4 %          | 96.3 %          |
+| Pill            | 84.6 %          | 90.5 %          | 90.2 %          | 90.8 %          |
 
+3. We also evaluated data augmentation on the improved GANomaly's performance: 
+|                 | Original GANomaly|                |Ours             |                  |
+| --------------- | --------------- | --------------- | --------------- | --------------- |
+|                 | Accuracy        | F1-Score        | Accuracy        | F1-Score        |
+| Wood            | 90.8 %          | 94.4 %          | 93.7 %          | 96.0 %          |
+| Screw           | 86.2 %          | 82.6 %          | 94.4 %          | 96.3 %          |
+| Pill            | 84.1 %          | 90.5 %          | 90.2 %          | 90.8 %          | 
