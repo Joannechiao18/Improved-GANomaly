@@ -32,6 +32,7 @@ git clone https://github.com/Joannechiao18/Improved-GANomaly.git
 ```
 2. Please `cd` to the `Improved-GANomaly-main`, and run the file `GANomaly_copy.ipynb` in Google Colab.
 
+enableExtendedTableSyntax: true
 ## Results:
 We evaluated our results over three baseline models: `AnoGAN`, `EGBAD`, and `the original GANomaly` on the mvtec testing datasets. 
 1. The results after comparing our improved GANomaly with AnoGAN and EGBAD: 
