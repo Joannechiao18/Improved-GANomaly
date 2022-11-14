@@ -44,7 +44,7 @@ We evaluated our results over three baseline models: `AnoGAN`, `EGBAD`, and `the
 
 
 
-|                 | Original GANomaly                 |Ours                              ||
+|                 | Original GANomaly                 |Ours                               |
 | --------------- | --------------- | --------------- | --------------- | --------------- |
 |                 | Accuracy        | F1-Score        | Accuracy        | F1-Score        |
 | Accuracy        | 70.8 %          | 74.7 %          | 70.8 %          | 74.7 %          |
