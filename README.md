@@ -38,3 +38,4 @@ We evaluated our results over three baseline models: `AnoGAN`, `EGBAD`, and `the
 | Attempt | #1    | #2    |
 | :---:   | :---: | :---: |
 | Seconds | 301   | 283   |
+
