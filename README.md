@@ -35,6 +35,6 @@ git clone https://github.com/Joannechiao18/Improved-GANomaly.git
 ## Results:
 We evaluated our results over three baseline models: `AnoGAN`, `EGBAD`, and `the original GANomaly` on the mvtec testing datasets. 
 1. The results are as the following: 
-| Attempt | #1  | #2  |
-| ------- | --- | --- |
-| Seconds | 301 | 283 |
+| Attempt | #1    | #2    |
+| :---:   | :---: | :---: |
+| Seconds | 301   | 283   |
