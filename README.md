@@ -44,7 +44,7 @@ We evaluated our results over three baseline models: `AnoGAN`, `EGBAD`, and `the
 
 2. In the second experiments, we evaluated our method's performacne by comparing with original GANomaly on the ***Wood***, ***Screw***, and ***Pill*** testing images from the mvtec datasets. The results are as the follows: 
 
-|                 | <td colspan=2>Original GANomaly   | <td colspan=2>Ours                |
+|                 | Original GANomaly   ||Ours                ||
 | --------------- | --------------- | --------------- | --------------- | --------------- |
 |                 | Accuracy        | F1-Score        | Accuracy        | F1-Score        |
 | Accuracy        | 70.8 %          | 74.7 %          | 70.8 %          | 74.7 %          |
