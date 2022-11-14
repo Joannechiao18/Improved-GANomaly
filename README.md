@@ -52,6 +52,7 @@ We evaluated our results over three baseline models: `AnoGAN`, `EGBAD`, and `the
 | Pill            | 84.6 %          | 90.5 %          | 90.2 %          | 90.8 %          |
 
 3. We also evaluated data augmentation on the improved GANomaly's performance: 
+
 |                 | Original GANomaly|                |Ours             |                  |
 | --------------- | --------------- | --------------- | --------------- | --------------- |
 |                 | Accuracy        | F1-Score        | Accuracy        | F1-Score        |
