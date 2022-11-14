@@ -51,7 +51,7 @@ We evaluated our results over three baseline models: `AnoGAN`, `EGBAD`, and `the
 | Screw           | 73.5 %          | 83.2 %          | 94.4 %          | 96.3 %          |
 | Pill            | 84.6 %          | 90.5 %          | 90.2 %          | 90.8 %          |
 
-3. We also evaluated data augmentation on the improved GANomaly's performance: 
+3. We also evaluated data augmentation on the `improved GANomaly`'s performance: 
 
 |                 | Original GANomaly|                |Ours             |                  |
 | --------------- | --------------- | --------------- | --------------- | --------------- |
