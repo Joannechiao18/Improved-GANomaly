@@ -22,7 +22,7 @@ To overcome the challenge that the original GANomaly had already learned many ti
 * numpy 
 
 ### Dataset
-* The anomaly detection dataset for training G2 can be downloaded from [here]([https://www.robots.ox.ac.uk/~vgg/data/flowers/102/](https://www.mvtec.com/company/research/datasets/mvtec-ad)).
+* The anomaly detection dataset for training G2 can be downloaded from [here](https://www.mvtec.com/company/research/datasets/mvtec-ad)).
 
 ## Getting Started:
 ### Usage
