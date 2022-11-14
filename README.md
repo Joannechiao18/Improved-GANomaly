@@ -24,13 +24,15 @@ To overcome the challenge that the original GANomaly had already learned many ti
 ### Dataset
 * The anomaly detection dataset for training G2 can be downloaded from [here]([https://www.robots.ox.ac.uk/~vgg/data/flowers/102/](https://www.mvtec.com/company/research/datasets/mvtec-ad)).
 
-### It was tested and runs under the following OSs:
-* Windows 10
-* Linux 
-
 ## Getting Started:
 ### Usage
 1. Clone this github repo. 
 ```
-git clone https://github.com/bigmms/DualGAN
+git clone https://github.com/Joannechiao18/Improved-GANomaly.git
 ```
+2. Please `cd` to the `Improved-GANomaly-main`, and run the file `GANomaly_copy.ipynb` in Google Colab.
+
+## Results:
+| Attempt | #1    | #2    |
+| :---:   | :---: | :---: |
+| Seconds | 301   | 283   |
