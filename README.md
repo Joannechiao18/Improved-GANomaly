@@ -9,7 +9,7 @@ This is an improved version GANomaly with keras from YZU graduate-level course M
 ## Introduction 
 Instead of calculating the differences between the features from generated images by the encoder trained on generated samples and the features from testing images by the encoder trained on regular samples, we re-defined a new anomaly score, which calculates the differences between features from generated and testing images by the encoder trained on regular samples.
 
-### Dependencies
+## Dependencies
 * tensorflow 
 * sklearn 
 * time 
@@ -21,16 +21,8 @@ Instead of calculating the differences between the features from generated image
 * glob 
 * numpy 
 
-### Dataset
+## Dataset
 * The anomaly detection dataset for training our `improved GANomaly` can be downloaded from [here](https://www.mvtec.com/company/research/datasets/mvtec-ad)).
-
-## Getting Started:
-### Usage
-1. Clone this github repo. 
-```
-git clone https://github.com/Joannechiao18/Improved-GANomaly.git
-```
-2. Please `cd` to the `Improved-GANomaly-main`, and run the file `GANomaly_copy.ipynb` in Google Colab.
 
 ## Results:
 We evaluated our results over three baseline models: `AnoGAN`, `EGBAD`, and `the original GANomaly` on the mvtec testing datasets. 
@@ -60,7 +52,14 @@ We evaluated our results over three baseline models: `AnoGAN`, `EGBAD`, and `the
 | Screw           | 86.2 %          | 82.6 %          | 94.4 %          | 96.3 %          |
 | Pill            | 84.1 %          | 90.5 %          | 90.2 %          | 90.8 %          | 
 
-# Citation
+## 🔨Getting Started:
+1. Clone this github repo. 
+```
+git clone https://github.com/Joannechiao18/Improved-GANomaly.git
+```
+2. Please `cd` to the `Improved-GANomaly-main`, and run the file `GANomaly_copy.ipynb` in Google Colab.
+
+## 🔗 Citation
 
 ```
 @article{DBLP:journals/corr/abs-1805-06725,
