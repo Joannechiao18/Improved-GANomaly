@@ -4,7 +4,7 @@
 ![](https://img.shields.io/badge/Cuda-10.2-blue)
 
 
-This is an improved version GANomaly with keras from YZU graduate-level course Machine Learning class. 
+This is an improved version GANomaly with keras from graduate-level course Machine Learning class. 
 
 ## Introduction 
 Instead of calculating the differences between the features from generated images by the encoder trained on generated samples and the features from testing images by the encoder trained on regular samples, we re-defined a new anomaly score, which calculates the differences between features from generated and testing images by the encoder trained on regular samples.
